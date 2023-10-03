@@ -13,8 +13,6 @@ public class Flottants {
 		 * 
 		 */
 		
-
-		
 		System.out.printf("- %s (%d bits) from %e to %e\n", Float.TYPE, Float.SIZE, Float.MIN_VALUE, Float.MAX_VALUE);
 		System.out.printf("- %s (%d bits) from %e to %e\n", Double.TYPE, Double.SIZE, Double.MIN_VALUE, Double.MAX_VALUE);
 		
