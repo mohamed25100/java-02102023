@@ -3,10 +3,8 @@ package _03_Types.TypesReferences;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.TreeMap;
 
 public class myCollections {
 
@@ -66,6 +64,7 @@ public class myCollections {
 		 * Un tableau associatif ne peut pas contenir de doublon de clés.
 		 */
 		
+		// TreeMap maintient un ordre naturel des clés
 		// Map<Integer, String> map = new TreeMap<Integer, String>();
 		
 		/*
@@ -88,14 +87,26 @@ public class myCollections {
 		map.put(4, "quatre");
 		map.put(5, "cing");
 		
-		for(Integer str : map.keySet())
+		for(Integer i : map.keySet())
 		{
-			System.out.println(str  + " ");
+			System.out.print(i  + " ");
 		}
 		
+		System.out.println();
 		
+		for(Map.Entry<Integer, String> entry : map.entrySet())
+		{
+			Integer key = entry.getKey();
+			
+			String val = entry.getValue();
+			
+			System.out.println("clé : " + key + " / valeur : " + val);
+		}
 		
+		System.out.println(map + " (avant suppression");
+		
+		map.remove(2); // ATTENTION : ne pas confondre la clé avec l'indice d'un tableau
+		
+		System.out.println(map + " (après suppression de la clé '2'");
 	}
-	
-
 }
