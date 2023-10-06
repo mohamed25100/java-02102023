@@ -89,9 +89,7 @@ public class App {
 	 * Le salaire moyen dans l'entreprise est de 4575.0 Euros.
 	 */
 
-	
 	public static void main(String[] args) {
-
 
 		IPersonnel p = new Personnel();
 		
