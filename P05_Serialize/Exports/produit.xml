@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.7" class="java.beans.XMLDecoder">
+ <object class="Model.Produit">
+  <void property="description">
+   <string>Ordi</string>
+  </void>
+  <void property="id">
+   <int>1</int>
+  </void>
+  <void property="prix">
+   <double>1000.0</double>
+  </void>
+ </object>
+</java>

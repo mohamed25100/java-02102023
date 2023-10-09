@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.7" class="java.beans.XMLDecoder">
+ <object class="Model.Adresse">
+  <void property="code_postal">
+   <int>31000</int>
+  </void>
+  <void property="rue">
+   <string>Victor Hugo</string>
+  </void>
+  <void property="ville">
+   <string>Toulouse</string>
+  </void>
+ </object>
+</java>

@@ -1,14 +1,9 @@
 package UserPackage;
 
-//import org.apache.logging.log4j.LogManager;
-//import org.apache.logging.log4j.Logger;
-
 public class App {
 	
-	// private static Logger logger = LogManager.getLogger(App.class);
-	
 	public static void main(String[] args) {
-
+	
 		try {
 			User user = new User("Duck", "Riri", 12);
 
